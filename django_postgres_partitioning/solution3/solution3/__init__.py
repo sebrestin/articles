@@ -1,0 +1,2 @@
+from django.db.backends.postgresql_psycopg2 import features
+features.DatabaseFeatures.can_return_id_from_insert = False
